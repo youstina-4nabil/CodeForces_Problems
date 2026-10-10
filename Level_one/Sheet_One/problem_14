@@ -1,0 +1,58 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    long long N;
+    long long a,s,d,f,g;
+    cin>>N>>a>>s>>d>>f>>g;
+    long long sultan_core=0,aabas_core=0;
+    if(a%N==0)
+    {
+        aabas_core+=a;
+    }
+    else{
+        sultan_core+=a;
+    }
+    if(s%N==0)
+    {
+        aabas_core+=s;
+    }
+    else{
+        sultan_core+=s;
+    }
+    if(d%N==0)
+    {
+        aabas_core+=d;
+    }
+    else{
+        sultan_core+=d;
+    }
+    if(f%N==0)
+    {
+        aabas_core+=f;
+    }
+    else{
+        sultan_core+=f;
+    }
+    if(g%N==0)
+    {
+        aabas_core+=g;
+    }
+    else{
+        sultan_core+=g;
+    }    
+    
+    if( sultan_core>aabas_core)
+    {
+        cout<<"Sultan";
+    }
+    else if( sultan_core==aabas_core)
+    {
+        cout<<"TIE";
+    }
+    else{
+        cout<<"3abas";
+    }
+    return 0;
+}
