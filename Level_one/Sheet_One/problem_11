@@ -1,0 +1,52 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int row;
+    char colum;
+    int insted;
+    cin>>colum>>row;
+    if(colum=='a')
+    {
+        insted=1;
+    }
+    if(colum=='b')
+    {
+        insted=2;
+    }
+    if(colum=='c')
+    {
+        insted=3;
+    }
+    if(colum=='d')
+    {
+        insted=4;
+    }
+    if(colum=='e')
+    {
+        insted=5;
+    }
+    if(colum=='f')
+    {
+        insted=6;
+    }
+    if(colum=='g')
+    {
+        insted=7;
+    }
+    if(colum=='h')
+    {
+        insted=8;
+    }
+    int upright=min(8-insted,8-row);
+    int upleft=min(insted-1,8-row);
+    int downleft=min(row-1,insted-1);
+    int downright=min(row-1,8-insted);
+    int total;
+    total=upright+upleft+downleft+downright;
+    cout<<total;
+   
+    
+
+}
