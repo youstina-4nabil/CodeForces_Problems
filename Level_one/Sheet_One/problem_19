@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	unsigned long long NoOfChairs, NoOfMoveing, StartPoint;
+	cin >> NoOfChairs >> NoOfMoveing >> StartPoint;
+	
+	if (NoOfMoveing % 2 != 0)
+	{
+		NoOfMoveing += 1;
+	}
+	unsigned long long res;
+	res = (NoOfMoveing + StartPoint) % NoOfChairs;
+	if (res == 0)
+	{
+		cout << NoOfChairs;
+	}
+	else {
+		cout << res;
+	}
+}
