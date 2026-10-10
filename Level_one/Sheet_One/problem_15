@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Ax, Ay, Bx, By, Cx, Cy, Dx, Dy;
+    cin >> Ax >> Ay >> Bx >> By >> Cx >> Cy >> Dx >> Dy;
+
+    
+    int dx1 = Bx - Ax, dy1 = By - Ay;
+    int dx2 = Dx - Cx, dy2 = Dy - Cy;
+
+
+    if (dy1 * dx2 == dy2 * dx1) {
+        cout << "Parallel";
+    }
+    
+    else if (dy1 * dy2 + dx1 * dx2 == 0) {
+        cout << "Perpendicular";
+    }
+    else {
+        cout << "Neither";
+    }
+
+    return 0;
+}
