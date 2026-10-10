@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+   
+    long long n,l;
+    cin >> n >> l;
+
+    int res = l - n;
+    if (res % 2 == 0)
+    {
+        cout << n;
+    }
+    else
+    {
+        cout << n-1;
+    }
+    
+}
