@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    long long   n, a, b;
+   cin >> n >> a >> b;
+    long long total = n * (n + 1) / 2;
+    long long noofdoubles = n / a;
+    long long nutarlbugdays = noofdoubles * a *  (noofdoubles + 1) / 2;
+    long long bugdays = noofdoubles * b + noofdoubles * (noofdoubles - 1) / 2;
+    long long res = total + (bugdays - nutarlbugdays);
+    cout << res;
+}
