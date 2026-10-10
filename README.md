@@ -9,7 +9,7 @@ I use this repository to practice problem solving and strengthen my algorithms a
 ## 👩‍💻 About Me
 
 Hi, I'm **Youstina Nabil**, a Level 3 student at the Faculty of Computer and Information Sciences, Ain Shams University.
-I'm passionate about problem solving and mobile development with Flutter, and I'm looking to grow through real-world projects.
+I'm passionate about problem solving
 
 - 🔗 Codeforces: [Youstina6](https://codeforces.com/profile/Youstina6)
 - 🔗 GitHub: [youstina-4nabil](https://github.com/youstina-4nabil)
@@ -86,6 +86,4 @@ g++ -x c++ Level_one/Sheet_One/problem_1 -o problem_1
 ./problem_1
 ```
 
-## 📬 Contact
 
-Feel free to reach out via [GitHub](https://github.com/youstina-4nabil) or check my profile on [Codeforces](https://codeforces.com/profile/Youstina6).
