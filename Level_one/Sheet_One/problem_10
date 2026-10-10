@@ -1,0 +1,9 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    double length;
+    cin>>length;
+    cout<<(length/2)*sqrt(2);
+}
