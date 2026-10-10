@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double a,s,c;
+    cin>>a>>s>>c;
+    double g;
+    g=(a*s/c);
+    long long y=g;
+    if(g!=y)
+    {
+        cout<<"double";
+    }
+    else if(g>=-2147483648&&g<=2147483648)
+    {
+        cout<<"int";
+    }    
+    else{
+        cout<<"long long";
+    }
+
+}
