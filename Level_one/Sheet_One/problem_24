@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char c1,ope,c2;
+    cin >> c1>>ope>>c2;
+    if (ope == '>')
+    {
+        if (c1 > c2)
+        {
+            cout << "YES";
+        }
+        else {
+            cout << "NO";
+        }
+    }else if(ope == '<')
+    {
+        if (c1 < c2)
+        {
+            cout << "YES";
+        }
+        else {
+            cout << "NO";
+        }
+    }
+    else
+    {
+        if (c1 == c2)
+        {
+            cout << "YES";
+        }
+        else {
+            cout << "NO";
+        }
+    } 
+
+
+}
