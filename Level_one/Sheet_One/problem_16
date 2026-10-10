@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    long long num1,num2,key;
+    cin>>num1>>num2>>key;
+    if((key%num1==0)&&(key%num2==0))
+    {
+        cout<<"Both";
+        
+    }
+    else if(key%num2==0)
+    {
+        cout<<"Second";
+    }
+    else if(key%num1==0)
+    {
+        cout<<"First";
+    }
+    else{
+        cout<<"None of them";
+    }
+}
