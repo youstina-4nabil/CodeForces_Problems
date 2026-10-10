@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+#include <cctype>
+using namespace std;
+
+int main()
+{
+    string word = "Chi";
+    char input;
+    cin >> input;
+    
+    int x = word.length();
+    
+    bool found = false;
+    for (int i = 0; i < x; i++)
+    {
+        
+        if(word.at(i)==input)
+        {
+            cout << "Yes" << endl;
+            found = true;
+            break;
+        }
+           
+    }
+    if (found == false)
+    {
+        cout << "No" << endl;
+
+    }
+    return 0;
+}
